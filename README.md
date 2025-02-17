@@ -1,9 +1,9 @@
 # Pomodoro Timer
-
+![image](https://github.com/user-attachments/assets/32982c8e-ec73-487c-9802-f9473f165ae7)
 Use the Pomodoro Timer to increase focus and improve productivity. Manage your work time efficiently with a simple interface.
 The Pomodoro Timer consists of a default 25-minute focus time and a 5-minute break time.
 
-(Move to Pomodoro Timer)[https://saramjh.github.io/pomodorotimerEN/]
+[Move to Pomodoro Timer](https://saramjh.github.io/pomodorotimerEN/)
 
 ## Features
 
@@ -37,7 +37,7 @@ pomodoroTimer/
 
 1. Clone this repository:
    ```bash
-   git clone https://github.com/ojihun/pomodoroTimer.git
+   git clone https://github.com/ojihun/pomodoroTimerEN.git
    ```
 2. Navigate to the project directory:
    ```bash
