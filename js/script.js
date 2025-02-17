@@ -142,16 +142,16 @@ class PomodoroTimer {
 	}
 
 	updateSessionType() {
-		this.sessionTypeElement.textContent = this.isWorkSession ? "집중 시간" : "휴식 시간"
+		this.sessionTypeElement.textContent = this.isWorkSession ? "Focus Time" : "Break Time"
 	}
 
 	addHistory() {
-		const sessionType = this.isWorkSession ? "집중 시간" : "휴식 시간"
+		const sessionType = this.isWorkSession ? "Focus Time" : "Break Time"
 		const listItem = document.createElement("li")
-		listItem.textContent = `${sessionType} 완료: ${new Date().toLocaleTimeString()}`
+		listItem.textContent = `${sessionType} completed: ${new Date().toLocaleTimeString()}`
 
 		const deleteBtn = document.createElement("button")
-		deleteBtn.textContent = "삭제"
+		deleteBtn.textContent = "Delete"
 		deleteBtn.className = "delete-btn"
 		deleteBtn.onclick = () => listItem.remove()
 

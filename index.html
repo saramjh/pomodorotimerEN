@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="ko">
+<html lang="en">
 
 <head>
   <!-- Google tag (gtag.js) -->
@@ -15,15 +15,16 @@
     crossorigin="anonymous"></script>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>뽀모도로 타이머 - 생산성 향상을 위한 시간 관리 도구</title>
-  <meta name="description" content="뽀모도로 타이머를 사용하여 집중력을 높이고 생산성을 향상시키세요. 간단한 인터페이스로 작업 시간을 효율적으로 관리할 수 있습니다.">
+  <title>Pomodoro Timer - Time Management Tool for Productivity</title>
+  <meta name="description"
+    content="Use the Pomodoro Timer to increase focus and improve productivity. Manage your work time efficiently with a simple interface.">
   <script type="application/ld+json">
     {
       "@context": "http://schema.org",
       "@type": "WebApplication",
-      "name": "뽀모도로 타이머",
-      "url": "http://example.com",
-      "description": "뽀모도로 타이머를 사용하여 집중력을 높이고 생산성을 향상시키세요.",
+      "name": "Pomodoro Timer",
+      "url": "http://.com",
+      "description": "Use the Pomodoro Timer to increase focus and improve productivity.",
       "applicationCategory": "Productivity"
     }
     </script>
@@ -33,24 +34,24 @@
 <body>
   <div class="timer-container">
     <div class="jumbotron">
-      <h1>뽀모도로 타이머</h1>
-      <h2 id="sessionType">집중 시간</h2>
+      <h1>Pomodoro Timer</h1>
+      <h2 id="sessionType">Focus Time</h2>
     </div>
     <div id="timerCard" class="timer-card">
       <canvas id="timerCanvas" width="300" height="300"></canvas>
     </div>
     <div>
-      <input type="number" id="minuteInput" placeholder="분" min="0" max="60">
-      <input type="number" id="secondInput" placeholder="초" min="0" max="59">
+      <input type="number" id="minuteInput" placeholder="Minutes" min="0" max="60">
+      <input type="number" id="secondInput" placeholder="Seconds" min="0" max="59">
     </div>
     <div>
-      <button id="start">시작</button>
-      <button id="stop">정지</button>
-      <button id="reset">리셋</button>
-      <button id="toggleSession">타이머 전환</button>
+      <button id="start">Start</button>
+      <button id="stop">Stop</button>
+      <button id="reset">Reset</button>
+      <button id="toggleSession">Toggle Timer</button>
     </div>
     <div id="history" class="history">
-      <h3>타이머 이력</h3>
+      <h3>Timer History</h3>
       <ol id="historyList"></ol>
     </div>
   </div>
